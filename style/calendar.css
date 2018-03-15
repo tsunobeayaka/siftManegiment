@@ -1,0 +1,65 @@
+
+
+
+h1 {
+	color: #ff7f50;
+	font-size: 30px;
+}
+
+p {
+	color: #ffa500;
+	font-size: 20px
+}
+
+td, th {
+	border: 2px #ffb6c1 solid;
+}
+
+table {
+ 	/*真ん中に表示させる。*/
+	 border-color: #dda0dd;
+
+}
+
+.glyphicon--extend {
+	font-size: 10rem;
+}
+
+.week {
+	background-color: #e884a8;
+	text-align: center;
+}
+
+.calendar {
+	margin-right: auto;
+	margin-left : auto;
+}
+
+table {
+	/*カレンダーを中央寄せするのに必要*/
+	width: 60rem;
+	height: 40rem;
+  table-layout: fixed;
+  border-collapse: separate;
+  border-spacing: 2px;
+}
+table td {
+	 vertical-align: top;
+   text-align: left;
+   overflow: hidden;
+}
+
+table td a{
+	 font-size: 1.2rem;
+   color: #000000;
+   text-decoration: none;
+   margin: -40rem;
+   padding: 40rem 40rem ;
+	 transition: background-color 0.2s 0s ease;
+}
+
+table td a:hover{
+	color: #000000;
+   background-color: #fce5ec;
+	 text-decoration: none;
+}

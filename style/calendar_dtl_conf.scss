@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+.form-horizontal {
+   margin-left: 30rem;
+   margin-top: 10rem;
+  .form-group {
+    margin-bottom: 3rem;
+  }
+
+  .col-sm-2--extend {
+    padding-right: 0px;
+  }
+  .col-sm-10--extend {
+    padding-left: 0px;
+  }
+}
+
+.form-name {
+  width: 20rem;
+}
+
+.form-time {
+  width: 5rem;
+}
+
+.col-sm-1--extend {
+}
